@@ -1,1 +1,1 @@
-# kodey-npm-cli-sample
+# kodey-cli-npm-demo-sample

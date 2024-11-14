@@ -72,11 +72,12 @@ Kodey.ai follows these steps to troubleshoot and fix dependency issues:
 5. **Re-Testing**: Kodey verifies that all dependencies install without errors.
 6. **Pull Request Creation**: After successful testing, Kodey commits the changes and opens a pull request.
 
-## Example thought process:
-The initial npm install command identified a version mismatch for the parser dependency. I’ll retrieve the latest version of parser and replace the outdated one. Re-running npm install should verify the installation.
+## Example thought process by kodey:
+*The initial npm install command identified a version mismatch for the parser dependency. I’ll retrieve the latest version of parser and replace the outdated one. Re-running npm install should verify the installation.*
 
-No issues remain after updating the dependency. The final step is to update package.json on GitHub and create a pull request from the fix/kodey-package-fix-final branch.
+*No issues remain after updating the dependency. The final step is to update package.json on GitHub and create a pull request from the fix/kodey-package-fix-final branch.*
 
+## Result
 At the end, you should see a pull request resembling this:
 
 ![PR SCREENSHOT](./assets/fixed.png)
